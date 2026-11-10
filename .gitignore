@@ -1,0 +1,39 @@
+# Model weights (download.sh or Releases)
+*.pt
+*.onnx
+weights/*
+!weights/.gitkeep
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environments
+.env
+.venv
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Demo outputs
+results/
+*_out.mp4
+
+# Editors
+.idea/
+.vscode/
+
+# Ruff / mypy
+.ruff_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
